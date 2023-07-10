@@ -1,2 +1,2 @@
 # UlbraGram
-This is a instagram clone make's in te class.
+This is a instagram clone maked in te class.
