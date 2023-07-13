@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UlbraGram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-2 pt-lg-5v pb-lg-2 border-end">
+                <h5 class="text-center d-none d-lg-block">UlbraGram</h5>
+                <nav class="navbar navbar-expand-lg">
+                    <h5 class="text-cente d-block d-lg-none">UlbraGram</h5>
+                    <button class="navbar-toggler" tipe="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-expanded="false"
+                        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-4">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="index.html"><i class="bi bi-house-door me-2"></i>Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-search me-2"></i>Pesquisar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-compass me-2"></i>Explorar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-play-btn me-2"></i>Reels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-chat me-2"></i>Mensagens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-heart me-2"></i>Notificações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-plus-square me-2"></i>Criar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="profile.html"><i class="bi bi-person me-2"></i>Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="bi bi-list me-2"></i>Mais</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu"
+                aria-labelledby="offcanvasMenulabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasMenulabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html"><i class="bi bi-house-door me-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-search me-2"></i>Pesquisar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-compass me-2"></i>Explorar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-play-btn me-2"></i>Reels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-chat me-2"></i>Mensagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-heart me-2"></i>Notificações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-plus-square me-2"></i>Criar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="profile.html"><i class="bi bi-person me-2"></i>Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="bi bi-list me-2"></i>Mais</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="profilePrincipal col-12 col-lg-7 mt-20 pl-40">
+                <div class="profile row">
+                    <div class="col-4 text-center">
+                        <img src="akats.png" alt="">
+                    </div>
+                    <div class="col pt-200">
+                        <div class="row pl-20">
+                            <div class="col-3">
+                                <h4>Akatsuki</h4>
+                                <p><strong>12</strong> posts</p>
+                            </div>
+                            <div class="col-3">
+                                <button class="px-3 mb-2"><strong>Following</strong></button>
+                                <p><strong>125</strong>Followers</p>
+                            </div>
+                            <div class="col-4">
+                                <div class="mb-2">
+                                    <button><strong>Following</strong><i
+                                            class="bi bi-chevron-compact-down"></i></button>
+                                    <button><i class="bi bi-person-plus"></i></button>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                                <p><strong>10</strong>following</p>
+                            </div>
+                            <div class="row">
+                                <p><strong>Akatsuki</strong><br>
+                                    Revolucionando atravéz da dor. <br>
+                                    <a href="www.akatsuki.com.br">Site da Akatsuki</a>
+                                </p>
+                                <p>Followed by <strong>Orochimaru</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="row d-flex justify-content-center mr-20 mt-4">
+                        <div class="story text-center">
+                            <img src="trio.jpg" alt="">
+                            <p class="mt-1">Founders</p>
+                        </div>
+                        <div class="story text-center">
+                            <img src="konan.jpg" alt="">
+                            <p class="mt-1">Konan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigationProfile row mt-5 d-flex justify-content-center align-items-center">
+                    <div class="col-2"><i class="bi bi-grid-3x3"></i> POSTS</div>
+                    <div class="col-2"><i class="bi bi-youtube"></i> REELS</div>
+                    <div class="col-2"><i class="bi bi-person-square"></i> TAGGED</div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="trio.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="konan.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="hidan.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="kisame.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="nagatos.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="Itachi.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="kakuzu.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="deidara.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="tobi.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="sasori.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="zetsu.jpg" alt="foto" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-1 mr-1">
+                            <img src="akatsuki.jpg" alt="foto" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+</script>
+
+</html>
